@@ -35,7 +35,7 @@ public class CambioDivisaApp extends Application {
 		divisaCambioText.setMaxWidth(80);
 		divisaCambioText.setDisable(true);
 		divisaCambioText.setStyle("-fx-opacity: 1.0;");
-		divisaCambioText.setText("0");
+		divisaCambioText.setPromptText("0");
 
 		divisaOriginalCombo = new ComboBox<String>();
 		divisaOriginalCombo.getItems().addAll("Euro", "Dolar", "Yen", "Libra");
